@@ -4,6 +4,8 @@ import Widget from '../src/components/Widget'
 import Footer from '../src/components/Footer'
 import GitHubCorner from '../src/components/GitHubCorner'
 import QuizBackground from '../src/components/QuizBackground'
+import Head from 'next/head';
+import {Router, useRouter} from 'next/router';
  
 
   // const BackgroundImage = styled.div`
@@ -27,15 +29,33 @@ export const QuizContainer = styled.div`
 
 
 export default function Home() {
+  const router = useRouter();
+  const [name, setName] = React.useState('');
   return (
     <QuizBackground backgroundImage={db.bg}>
+      <Head>
+        <title>Star Wars Quiz</title>
+      </Head>
       <QuizContainer>
         <Widget>
           <Widget.Header>
             <h1>Star Wars</h1>
           </Widget.Header>
           <Widget.Content>
-            <p>Lorem ipsum dolor sit amet!</p>
+            <form onSubmit={function (infosDoEvento){
+              infosDoEvento.preventDefault();
+              router.push(`/quiz?name=${name}`);
+            }}>
+              <input 
+              onChange = {function(infosDoEvento){
+                //State
+                setName(infosDoEvento.target.value);
+              }}
+              placeholder='Digite seu nome :)'/>
+              <button type = 'submit' disabled={name.length === 0}>
+                Jogar {name}
+              </button>
+            </form>
           </Widget.Content>
       
         </Widget>
