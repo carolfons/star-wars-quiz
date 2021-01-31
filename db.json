@@ -16,13 +16,15 @@
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "image": "https://media2.giphy.com/media/VfynLf6Qo16Rq/giphy.gif?cid=ecf05e47c027e18c58f895e71d84783254bd9b19478f7be3&rid=giphy.gif",
+      "title": "Quais são as criaturas, vivendo em Endor, que ajudaram os rebeldes a derrotar a segunda Estrela da Morte?",
+      "description": "",
       "answer": 0,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+         "Wookies",
+         "Ewoks",
+         "Jawas",
+         "Nikto"
       ]
     }
   ],

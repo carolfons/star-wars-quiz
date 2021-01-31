@@ -13,7 +13,7 @@ function LoadingWidget(){
            </Widget.Header>
 
            <Widget.Content>
-               [Desafio do Loading]
+               [Carregando...]
            </Widget.Content>
        </Widget>
    );
