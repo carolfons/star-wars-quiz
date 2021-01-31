@@ -59,8 +59,9 @@ export function QuestionWidget({question, questionIndex, totalQuestions, onSubmi
                 </Widget.Topic>
               );
             })}
+          
+            <Button type = "submit">Confirmar</Button>
           </form>
-          <Button type = "submit">Confirmar</Button>
         </Widget.Content>
       </Widget>
 
