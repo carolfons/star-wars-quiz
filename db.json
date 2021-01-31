@@ -4,15 +4,15 @@
   "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
-      "answer": 2,
+      "image": "https://media2.giphy.com/media/3ornk6SwoWUWoOYEzC/giphy.gif",
+      "title": "Quem é o pai de Luke Skywalker?",
+      "description": "",
+      "answer": 3,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "Jorge",
+        "Lando Calrissian",
+        "Obi-wan",
+        "Darth Vader"
       ]
     },
     {

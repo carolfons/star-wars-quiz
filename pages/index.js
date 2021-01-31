@@ -4,6 +4,9 @@ import Widget from '../src/components/Widget'
 import Footer from '../src/components/Footer'
 import GitHubCorner from '../src/components/GitHubCorner'
 import QuizBackground from '../src/components/QuizBackground'
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
+
 import Head from 'next/head';
 import {Router, useRouter} from 'next/router';
  
@@ -46,27 +49,31 @@ export default function Home() {
               infosDoEvento.preventDefault();
               router.push(`/quiz?name=${name}`);
             }}>
-              <input 
+              <Input 
+              name = 'nomeDoUsuario'
               onChange = {function(infosDoEvento){
                 //State
                 setName(infosDoEvento.target.value);
               }}
-              placeholder='Digite seu nome :)'/>
-              <button type = 'submit' disabled={name.length === 0}>
-                Jogar {name}
-              </button>
+              placeholder='Digitar seu nome voce deve'
+              value = {name}
+              />
+              
+              <Button type = 'submit' disabled={name.length === 0}>
+                {`Padawan ${name}`}
+              </Button>
             </form>
           </Widget.Content>
       
         </Widget>
         <Widget>
           <Widget.Content>
-            <h1>Quizes da Galera</h1>
+            <h1>Outros Quizes</h1>
             <p>Lorem ipsum dolor sit amet!</p>
           </Widget.Content>  
         </Widget>
 
-        <Footer/>
+        {/* <Footer/> */}
       </QuizContainer> 
       <GitHubCorner projectUrl = "https://github.com/carolfons"/>
     </QuizBackground>
