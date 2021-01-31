@@ -4,7 +4,7 @@ import Widget from '../src/components/Widget'
 import Footer from '../src/components/Footer'
 import GitHubCorner from '../src/components/GitHubCorner'
 import QuizBackground from '../src/components/QuizBackground'
-import Input from '../src/components/Input';
+import Input from '../src/components/Inpuut';
 import Button from '../src/components/Button';
 
 import Head from 'next/head';
