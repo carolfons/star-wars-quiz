@@ -26,10 +26,96 @@
          "Jawas",
          "Nikto"
       ]
+    },
+    {
+      "image": "https://media0.giphy.com/media/3ornkd1yQFrDGrTDCU/giphy.gif?cid=ecf05e47b7jdqocsxa460l0mqsiy9ly0avb1ubw3ks8xkw1x&rid=giphy.gif",
+      "title": "Qual Stormtrooper não consegue cumprir sua missão em 'O despertar da Força'?",
+      "description": "",
+      "answer": 1,
+      "alternatives": [
+        "FN-2705",
+        "FN-2187",
+        "Poe Dameron",
+        "FN-1312"
+      ]
+    },
+    {
+      "image": "https://media3.giphy.com/media/3o84sCoZRPKrPCcYrC/giphy.gif?cid=ecf05e47n62nlybayxgvwo2jxpahcxh8th33j70sugg65m7j&rid=giphy.gif",
+      "title": "Quem matou o Jabba?",
+      "description": "",
+      "answer": 2,
+      "alternatives": [
+        "Han Solo",
+        "Lando Calrissian",
+        "Leia Organa",
+        "Luke Skywalker"
+      ]
+    },
+    {
+      "image": "https://media2.giphy.com/media/Nx0rz3jtxtEre/giphy.gif?cid=ecf05e47bwg6j2jxl2sm4zoc5c842hjm4b7uufzuyi8flrml&rid=giphy.gif",
+      "title": "Quantos sabres de luz o General Grievous usa na sua luta contra Obi-Wan Kenobi em Utapau?",
+      "description": "",
+      "answer": 2,
+      "alternatives": [
+        "1",
+        "2",
+        "4",
+        "6"
+      ]
+    },
+    {
+      "image": "https://media1.giphy.com/media/3ohuPcFRTaX7z3OocU/giphy.gif?cid=ecf05e47culaaz38r84wc4gsikdjn9qxx1p6322i13p82xrw&rid=giphy.gif",
+      "title": "Que missão a princesa Leia deu a Obi-Wan Kenobi?",
+      "description": "",
+      "answer": 3,
+      "alternatives": [
+        "Destruir a Estrela da Morte",
+        "Derrotar o Imperador",
+        "Treinar Luke Skywalker",
+        "Levar R2-D2 para Alderaan"
+      ]
+    },
+    {
+      "image": "https://media2.giphy.com/media/MZW5o8f5RaH0Q/giphy.gif?cid=ecf05e47aw93ymvqvwigfbpvy5316fpltwvllbuqur7xea6o&rid=giphy.gif",
+      "title": "De acordo com Yoda, qual é o caminho para o Lado Negro?",
+      "description": "",
+      "answer": 0,
+      "alternatives": [
+        "Medo",
+        "Dor",
+        "Sofrimento",
+        "Ódio"
+      ]
+    },
+    {
+      "image": "https://media0.giphy.com/media/3ornjSL2sBcPflIDiU/giphy.gif?cid=ecf05e47ny165t00qzw508p0cqz0ig82kca63jy6nt53vjx9&rid=giphy.gif",
+      "title": "Qual o planeta Natal de Han Solo?",
+      "description": "",
+      "answer": 2,
+      "alternatives": [
+        "Dantooine",
+        "Coruscant",
+        "Corellia",
+        "Alderaan"
+      ]
+    },
+    {
+      "image": "https://media0.giphy.com/media/2EaMq3hfnmhtm/giphy.gif?cid=ecf05e47hp8pktnbt7k2nez0imoc4cyike0kjo27ix6ltr7v&rid=giphy.gif",
+      "title": "E por fim, onde ocorreu a última batalha entre Obi-Wan e Anakin Skywalker?",
+      "description": "",
+      "answer": 3,
+      "alternatives": [
+        "Tatooine",
+        "Coruscant",
+        "Naboo",
+        "Mustafar"
+      ]
     }
   ],
   "external": [
-    ""
+    "https://aluraquiz-css.omariosouto.vercel.app",
+    "https://theofficequiz.brunaguedes92.vercel.app"
+
   ],
   "theme": {
     "colors": {
